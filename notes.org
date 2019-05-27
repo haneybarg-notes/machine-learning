@@ -1,0 +1,17 @@
+# -*- after-save-hook: org-latex-export-to-pdf; -*-
+#+latex_header: \usepackage[margin=2cm]{geometry}
+#+latex_header: \usepackage{enumitem}
+#+latex_header: \DeclareMathOperator{\sign}{sign}
+#+latex_header: \setlength{\parindent}{0cm}
+#+latex_header: \usepackage{pgfplots}
+#+latex_header: \pgfplotsset{compat=1.11}
+#+latex_header: \usetikzlibrary{arrows, decorations.markings}
+#+latex_header: \usetikzlibrary{3d}
+#+latex_header: \usetikzlibrary{shapes.geometric,decorations.fractals,shadows}
+
+* Unsupervised Learning
+  Unsupervised learning is related to /data description/. Much less defined than
+  supervised learning.
+
+  *Goal:* find patterns that describe the data.
+** Clustering
