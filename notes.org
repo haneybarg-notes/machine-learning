@@ -9,9 +9,36 @@
 #+latex_header: \usetikzlibrary{3d}
 #+latex_header: \usetikzlibrary{shapes.geometric,decorations.fractals,shadows}
 
-* Unsupervised Learning
-  Unsupervised learning is related to /data description/. Much less defined than
-  supervised learning.
+* Deep Learning
+    Utilized with unestructred data (Ex: image, text, time series).
 
-  *Goal:* find patterns that describe the data.
-** Clustering
+    We will study:
+    - Computer Vision
+    - NLP (natural language processing)
+
+** Computer Vision
+   Chalenges: high dimensions and different inputs for the same object when
+   distinguishing images.
+
+   State of the art classifies better than humans.
+
+   CNN = convolutional neural networks (to learn these boxes, it needs a math operation
+   called convolution or correlation).
+
+   In the top layers, there are more smaller boxes. In the last layer, the is a vector
+   representation of all the patterns.
+
+   Lower layers catch very simple patterns, second layer starts getting forms. With more
+   layers, it gets more complex objects.
+
+*** Convolution
+    Returns a number. Capacity of checking if the boxes are good (extract features from
+    input). Edges and corners are disavantaged in this.
+
+*** Pooling
+    - *Max:* 99% of times.
+    - Min
+    - Average
+
+    Reduce the dimentionaly of the boxes. Superior limit. Corresponds spatially to the
+    orginal image.

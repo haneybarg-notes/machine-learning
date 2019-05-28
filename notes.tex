@@ -1,0 +1,81 @@
+% Created 2019-05-28 Tue 18:36
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage[margin=2cm]{geometry}
+\usepackage{enumitem}
+\DeclareMathOperator{\sign}{sign}
+\setlength{\parindent}{0cm}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.11}
+\usetikzlibrary{arrows, decorations.markings}
+\usetikzlibrary{3d}
+\usetikzlibrary{shapes.geometric,decorations.fractals,shadows}
+\date{\today}
+\title{}
+\hypersetup{
+ pdfauthor={},
+ pdftitle={},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 26.2 (Org mode 9.2)},
+ pdflang={English}}
+\begin{document}
+
+\tableofcontents
+
+
+\section{Deep Learning}
+\label{sec:org2ee12e0}
+Utilized with unestructred data (Ex: image, text, time series).
+
+We will study:
+\begin{itemize}
+\item Computer Vision
+\item NLP (natural language processing)
+\end{itemize}
+
+\subsection{Computer Vision}
+\label{sec:org0ceb043}
+Chalenges: high dimensions and different inputs for the same object when
+distinguishing images.
+
+State of the art classifies better than humans.
+
+CNN = convolutional neural networks (to learn these boxes, it needs a math operation
+called convolution or correlation).
+
+In the top layers, there are more smaller boxes. In the last layer, the is a vector
+representation of all the patterns.
+
+Lower layers catch very simple patterns, second layer starts getting forms. With more
+layers, it gets more complex objects.
+
+\subsubsection{Convolution}
+\label{sec:org68a90c4}
+Returns a number. Capacity of checking if the boxes are good (extract features from
+input). Edges and corners are disavantaged in this.
+
+\subsubsection{Pooling}
+\label{sec:org0948903}
+\begin{itemize}
+\item \textbf{Max:} 99\% of times.
+\item Min
+\item Average
+\end{itemize}
+
+Reduce the dimentionaly of the boxes. Superior limit. Corresponds spatially to the
+orginal image.
+\end{document}
