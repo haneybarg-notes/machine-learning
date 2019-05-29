@@ -10,14 +10,14 @@
 #+latex_header: \usetikzlibrary{shapes.geometric,decorations.fractals,shadows}
 
 * Deep Learning
-    Utilized with unestructred data (Ex: image, text, time series).
+    Utilized with unstructred data (Ex: image, text, time series).
 
     We will study:
     - Computer Vision
     - NLP (natural language processing)
 
 ** Computer Vision
-   Chalenges: high dimensions and different inputs for the same object when
+   Challenges: high dimensions and different inputs for the same object when
    distinguishing images.
 
    State of the art classifies better than humans.
@@ -41,4 +41,4 @@
     - Average
 
     Reduce the dimentionaly of the boxes. Superior limit. Corresponds spatially to the
-    orginal image.
+    original image.
